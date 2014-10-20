@@ -1,0 +1,17 @@
+digraph test {
+	node1 -> node2	 [color=red,
+		fontname="Arial narrow",
+		fontsize=11,
+		label="test 1"];
+	node2 -> node3	 [color=green,
+		edgetype=edge2,
+		fontname="Arial narrow",
+		fontsize=11,
+		label="test 2",
+		style=bold];
+	node2 -> node4	 [color=blue,
+		edgetype=edge3,
+		fontname="Arial narrow",
+		fontsize=14,
+		label="test 3"];
+}

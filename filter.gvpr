@@ -1,0 +1,19 @@
+E {
+	color="red";
+	fontsize=11;
+	fontname="Arial narrow"
+}
+
+E [ edgetype == "edge2" ] {
+	color="green";
+	fontsize=11;
+	fontname="Arial narrow";
+	style="bold"
+}
+
+E [ edgetype == "edge3" ] {
+	color="blue";
+	fontsize=14;
+	fontname="Arial narrow"
+}
+

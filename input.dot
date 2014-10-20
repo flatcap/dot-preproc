@@ -1,0 +1,6 @@
+digraph test {
+	node1 -> node2 [ label="test 1" ];
+	node2 -> node3 [ label="test 2", edgetype="edge2" ];
+	node2 -> node4 [ label="test 3", edgetype="edge3" ];
+}
+
